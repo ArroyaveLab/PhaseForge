@@ -6,10 +6,12 @@
   <img src="logo.png" alt="PhaseForge Logo" width="200"/>
 </p>
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15730911.svg)](https://doi.org/10.5281/zenodo.15730911)
-[![arXiv](https://img.shields.io/badge/arXiv-2506.16771-blue?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.16771)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://opensource.org/license/gpl-3-0)
 ![Platforms](https://img.shields.io/badge/platform-linux%20%7C%20macos-lightgrey)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15730911.svg)](https://doi.org/10.5281/zenodo.15730911)
+
+[![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.actamat.2025.120747-blue)](https://doi.org/10.1016/j.actamat.2025.120747)
+[![DOI](https://img.shields.io/badge/DOI-10.1038%2Fs41524--025--01814--z-blue)](https://doi.org/10.1038/s41524-025-01814-z)
 
 <p>
 PhaseForge is a versatile tool designed to assist in the creation and management of thermodynamic database (TDB) files, particularly for materials science applications. It provides a user-friendly interface for generating TDB files, making it an essential resource for researchers and engineers in the field.
@@ -167,25 +169,39 @@ Perform robustrelax_vasp (command in ATAT) with MLIP and the options
 
 If you use PhaseForge in your research, please cite the following:
 
-> Siya Zhu, Doğuhan Sarıtürk, Raymundo Arróyave. *Machine Learning Potentials for Alloys: A Detailed Workflow to Predict Phase Diagrams and Benchmark Accuracy*, arXiv:2506.16771 [cond-mat.mtrl-sci], Jun. 2025.
+> Siya Zhu, Doğuhan Sarıtürk, Raymundo Arróyave. *Machine Learning Potentials for Alloys: A Detailed Workflow to Predict Phase Diagrams and Benchmark Accuracy*, npj Computational Materials, 11, 340 (2025). https://doi.org/10.1038/s41524-025-01814-z
 
-> Sarıtürk, D., Zhu, S., & Arroyave, R. (2025). PhaseForge (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.15730912
+> Siya Zhu, Doğuhan Sarıtürk, Raymundo Arróyave. *Accelerating CALPHAD-based phase diagram predictions in complex alloys using universal machine learning potentials: Opportunities and challenges*, Acta Materialia, 286, 120747 (2025). https://doi.org/10.1016/j.actamat.2025.120747
+
+> Sarıtürk, D., Zhu, S., & Arróyave, R. (2025). PhaseForge (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.15730912
 
 BibTeX:
 
 ```bibtex
-@article{zhu2025machinelearningpotentialsalloys,
-  author       = {Zhu, Siya and Sarıtürk, Doğuhan and Arroyave, Raymundo},
+@article{zhu2025machinelearningpotentials,
+  author       = {Zhu, Siya and Sarıtürk, Doğuhan and Arróyave, Raymundo},
   title        = {Machine Learning Potentials for Alloys: A Detailed Workflow to Predict Phase Diagrams and Benchmark Accuracy},
+  journal      = {npj Computational Materials},
   year         = 2025,
-  archivePrefix= {arXiv},
-  eprint       = {2506.16771},
-  primaryClass = {cond-mat.mtrl-sci},
-  url          = {https://arxiv.org/abs/2506.16771},
+  volume       = {11},
+  pages        = {340},
+  doi          = {10.1038/s41524-025-01814-z},
+  url          = {https://doi.org/10.1038/s41524-025-01814-z},
+}
+
+@article{zhu2025accelerating,
+  author       = {Zhu, Siya and Sarıtürk, Doğuhan and Arróyave, Raymundo},
+  title        = {Accelerating {CALPHAD}-based phase diagram predictions in complex alloys using universal machine learning potentials: Opportunities and challenges},
+  journal      = {Acta Materialia},
+  year         = 2025,
+  volume       = {286},
+  pages        = {120747},
+  doi          = {10.1016/j.actamat.2025.120747},
+  url          = {https://doi.org/10.1016/j.actamat.2025.120747},
 }
 
 @software{sariturk_2025_15730912,
-  author       = {Sarıtürk, Doğuhan and Zhu, Siya and Arroyave, Raymundo},
+  author       = {Sarıtürk, Doğuhan and Zhu, Siya and Arróyave, Raymundo},
   title        = {PhaseForge},
   month        = jun,
   year         = 2025,
