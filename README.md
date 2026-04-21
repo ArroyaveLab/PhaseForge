@@ -1,10 +1,8 @@
 <div align="center">
 
-# PhaseForge
+<img width="200" alt="PhaseForge-logo" src="logo.png"/>
 
-<p align="center">
-  <img src="logo.png" alt="PhaseForge Logo" width="200"/>
-</p>
+# PhaseForge
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://opensource.org/license/gpl-3-0)
 ![Platforms](https://img.shields.io/badge/platform-linux%20%7C%20macos-lightgrey)
@@ -13,10 +11,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.actamat.2025.120747-blue)](https://doi.org/10.1016/j.actamat.2025.120747)
 [![DOI](https://img.shields.io/badge/DOI-10.1038%2Fs41524--025--01814--z-blue)](https://doi.org/10.1038/s41524-025-01814-z)
 
-<p>
-PhaseForge is a versatile tool designed to assist in the creation and management of thermodynamic database (TDB) files, particularly for materials science applications. It provides a user-friendly interface for generating TDB files, making it an essential resource for researchers and engineers in the field.
-
-</p>
+`PhaseForge` is a versatile tool designed to assist in the creation and management of thermodynamic database (TDB) files, particularly for materials science applications. It provides a user-friendly interface for generating TDB files, making it an essential resource for researchers and engineers in the field.
 
 <p>
   <a href="https://github.com/dogusariturk/PhaseForge/issues/new?labels=bug">Report a Bug</a> |
@@ -87,7 +82,7 @@ This command performs:
  sqscal -e [Element1, Element2, ...] -l [Lattice1,Lattice2] -lv [Level] -mlip [MLIP] -model [MLIP model version] [-vib] [-sro]
 ```
 
-A simple in line command for a quick start.
+A simple in-line command for a quick start.
 
 
 `MLIPrelax`
@@ -96,7 +91,7 @@ A simple in line command for a quick start.
 MLIPrelax -mlip=[MLIP] -model=[model]
 ```
 
-Relax the structure with MLIP-model & single point calculation. fmax=0.001, step=1000
+Relax the structure with MLIP-model and single point calculation. fmax=0.001, step=1000
 
 
 `MLIPcalc`
@@ -215,4 +210,4 @@ BibTeX:
 
 ## License
 
-This project is licensed under the GNU GPLv3 License. See the [LICENSE](./LICENSE) file for details.
+This project is licensed under the GNU GPLv3 License. See the [LICENSE](https://github.com/dogusariturk/PhaseForge/blob/main/LICENSE) file for details.
